@@ -29,7 +29,7 @@ export default function Footer() {
                 <input
                   type="text"
                   placeholder="Enter your Email"
-                  className="border-none text-white py-2 px-4 w-full sm:w-auto md:w-80" // Full width on small screens, auto width on medium and up
+                  className="border-none text-white py-2 px-4 w-full sm:w-auto md:w-50" // Full width on small screens, auto width on medium and up
                 />
                 <FontAwesomeIcon
                   icon={faArrowCircleRight}
