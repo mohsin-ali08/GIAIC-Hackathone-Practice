@@ -15,7 +15,7 @@ export default function Footer(){
                       <li className="pt-2 cursor-pointer">Subscribe</li>
                       <li className="pt-2 cursor-pointer">Get 10% off your first order</li>
                       <li className="mt-3 cursor-pointer py-1 border flex justify-center">
-                        <input type="text" placeholder="Enter your Email" className="bg-gray-900 border-none text-white"/>
+                        <input type="text" placeholder="Enter your Email" className=" border-none text-white"/>
                         <FontAwesomeIcon icon={faArrowCircleRight}className="text-xl  sm:hidden md:block" ></FontAwesomeIcon></li>
                     </ul>
                    </div>
@@ -51,13 +51,13 @@ export default function Footer(){
        <ul className="list-none flex gap-x-3">
      
       <li>
-        <Link href="https://www.youtube.com/@Noureenramzan925"  target="_blank" rel="noopener noreferrer">
+        <Link href="#"  target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faYoutube} className=" text-3xl mr-2  transition duration-200 ease-out hover:scale-105 hover:ease-in" />
         </Link>
       </li>
 
       <li>
-        <Link href="https://www.linkedin.com/in/noureen-ramzan-a744b12ba/" target="_blank" rel="noopener noreferrer" >
+        <Link href="https://www.linkedin.com/in/mohsin-ali08/" target="_blank" rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faLinkedin} className=" text-3xl mr-2  transition duration-200 ease-out hover:scale-105 hover:ease-in" />
         </Link>
       </li>
